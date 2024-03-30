@@ -11,4 +11,4 @@ while True :  #Vòng lặp vô hạn
         print("Tuổi bạn vừa nhập không hợp lệ vui lòng nhập lại!") 
         continue
 form = "Vào 20 năm nữa, tuổi của {Ten} sẽ là {TuoiCanTim}" #Khai báo chuỗi form
-print(form.format(Ten=ten,TuoiCanTim=tuoi+20)) #In ra màn hình
+print(form.format(Ten=ten,TuoiCanTim=tuoi+20)) #In ra màn hình      
