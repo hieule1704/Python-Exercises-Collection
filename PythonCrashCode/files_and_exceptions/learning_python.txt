@@ -1,0 +1,4 @@
+Python is an interesting programming language
+Nó thân thiện với người mới học lập trình
+Ưu điểm của Python là sự ngắn gọn và dễ hiệu trong cú pháp (syntax) rất gần với ngôn ngữ tự nhiên
+Ngoài ra Python còn được hỗ trợ nhiều thư viện mạnh mẽ giúp ta xử lý nhiều vấn đề khác nhau
