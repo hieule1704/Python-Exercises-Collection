@@ -1,5 +1,9 @@
-PI = 3.14
-r = float(input("Nhập bán kính hình tròn: "))
-dienTich = PI*r*r
-chuVi = PI*2*r
-print("Chi vi của hình tròn là: ",chuVi," Diện tích hình tròn là: ",dienTich)
+import math
+try:
+    r = float(input("Mời bạn nhập bán kính hình tròn:"))
+    cv = 2 * math.pi * r
+    dt = r ** 2
+    print("Chu vi =", cv)
+    print("Diện tích=", dt)
+except:
+    print("Lỗi rồi!")
