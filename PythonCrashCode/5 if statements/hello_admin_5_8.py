@@ -1,5 +1,5 @@
-#usernames = ['admin', 'user1', 'user2', 'user3', 'user4']
-usernames = []
+usernames = ['admin', 'user1', 'user2', 'user3', 'user4']
+#usernames = []
 if usernames == []:
     print('We need to find some users!')
 else:

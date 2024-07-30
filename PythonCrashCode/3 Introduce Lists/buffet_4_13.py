@@ -7,4 +7,3 @@ foods = ("Bún bò","Sinh tố","Phở","Hủ tiếu","Tôm rang me")
 print("New menu: ")
 for food in foods:
     print(food)
-

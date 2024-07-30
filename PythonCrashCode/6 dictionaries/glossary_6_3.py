@@ -7,3 +7,8 @@ programming_words = {
 }
 for key,value in programming_words.items():
     print(key,value)
+print("\n")
+programming_words['upper'] = "use to uppercase character or string"
+programming_words['lower'] = "use to lowercase character or string"
+for key,value in programming_words.items():
+    print(key,value)
