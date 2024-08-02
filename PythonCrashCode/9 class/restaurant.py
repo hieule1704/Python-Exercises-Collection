@@ -16,10 +16,8 @@ class Restaurant:
     def increase_number_served(self, number_served):
         self.number_served += number_served
 # Main
-"""
 restaurant_1 = Restaurant("The Golden Dragon", "Chinese")
 restaurant_1.describe_restaurant()
 restaurant_1.set_number_served(10)
 restaurant_1.increase_number_served(5)
 print(f"Number served: {restaurant_1.number_served}")
-"""

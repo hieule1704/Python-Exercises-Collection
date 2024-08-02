@@ -17,3 +17,7 @@ class User:
         self.logon_attempts += 1
     def reset_logon_attempts(self):
         self.logon_attempts = 0
+
+my_user = User("Hieu","Le","20","Long Xuyen City",0)
+my_user.describe_user()
+my_user.increment_logon_attempts()
