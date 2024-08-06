@@ -2,10 +2,13 @@ from pathlib import Path
 
 path = Path('guest_book.txt')
 guest_book = []
-guest_name = input("Enter guest name: \nEnter 'quit' to end the program.")
-while guest_name!='quit':
+
+while True:
+    guest_name = input("Enter 'quit' to end the program!\nEnter guest name: ")
+    if guest_name=='quit':
+        break
     guest_book.append(guest_name)
-    guest_name = input("Enter guest name: \nEnter 'quit' to end the program.")
+
 guest = ''
 for g in guest_book:
     guest=guest+g+"\n"

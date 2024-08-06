@@ -14,9 +14,6 @@ class Privileges:
         for privilege in self.privileges:
             print(f"- {privilege}")
 # Main
-"""
-admin_1 = Admin("John", "Doe", 25, "New York",0,["can add post","can delete post","can ban user"])
-admin_1.describe_user()
-admin_1.privileges.show_privileges()
-
-"""
+# admin_1 = Admin("John", "Doe", 25, "New York",0,["can add post","can delete post","can ban user"])
+# admin_1.describe_user()
+# admin_1.privileges.show_privileges()

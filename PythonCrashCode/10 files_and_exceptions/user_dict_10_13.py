@@ -10,5 +10,5 @@ while True:
     user_dict['height'] = input("Enter your height(cm): ")
     path.write_text(json.dumps(user_dict))
     break
-print(json.loads(path.read_text()))
-print(path.read_text())
+print(type(json.loads(path.read_text())))
+print(type(path.read_text()))

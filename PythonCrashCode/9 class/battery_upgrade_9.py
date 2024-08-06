@@ -44,6 +44,8 @@ class Battery:
         print(f"This car has a {self.battery_size}-kWh battery.")
     
     def upgrade_battery(self):
+        if self.battery_size == None:
+            self.battery_size = 65
         if self.battery_size < 100:
             self.battery_size = 100
 

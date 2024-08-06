@@ -1,5 +1,5 @@
 number1=number2=0
-while(number1!='q' and number2!='q'):
+while True:
     try:
         number1 = int(input("Enter first number: "))
         number2 = int(input("Enter second number: "))
@@ -8,6 +8,6 @@ while(number1!='q' and number2!='q'):
     else:
         result = number1+number2
         print(number1,'+',number2,'=',result)
-        message = input("Do you want to continue(Y/N): ")
-        if(message.upper()=='N'):
+        message = input("Enter 'q' to quit if you don't want to continue otherwise enter a random character: ")
+        if(message.lower()=='q'):
             break
