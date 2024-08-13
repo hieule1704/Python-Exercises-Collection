@@ -17,8 +17,8 @@ def run_game():
         # Kiểm tra các sự kiện
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
+                pygame.quit() #uninitializes all Pygame modules
+                sys.exit() # exit the program
 
         # Vẽ nền màu xanh dương
         screen.fill(blue_color)

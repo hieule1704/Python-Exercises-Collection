@@ -9,7 +9,7 @@ class Rocket:
         self.screen_rect = ai_game.screen.get_rect() # Lấy hình chữ nhật của màn hình để dễ dàng định vị.
 
         # Load the ship image and get its rect.
-        self.image = pygame.image.load('images/space-rocket-icon.bmp')
+        self.image = pygame.image.load('space-rocket-icon.bmp')
         self.rect = self.image.get_rect()
 
         self.rocket_speed = 5

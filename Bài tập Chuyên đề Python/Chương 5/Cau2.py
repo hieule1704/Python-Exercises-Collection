@@ -19,6 +19,7 @@ def formatString(string):
 
 def main():
     string = input("Enter your string here: ")
+    print(id(string)) #In dia chi vung nho của bien
     print("Formatted string:", formatString(string))
 
 

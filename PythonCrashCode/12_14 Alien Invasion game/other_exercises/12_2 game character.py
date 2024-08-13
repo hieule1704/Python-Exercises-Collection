@@ -10,7 +10,7 @@ class Character:
         self.screen = screen
 
         # Tải hình ảnh nhân vật và lấy rect của nó
-        self.image = pygame.image.load('../images/ship.bmp')
+        self.image = pygame.image.load('space-rocket-icon.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
