@@ -1,5 +1,3 @@
-import pytest
-
 def input_string(string_store):
     while True:
         char = input("Enter your number, enter 'quit' to quit: ")

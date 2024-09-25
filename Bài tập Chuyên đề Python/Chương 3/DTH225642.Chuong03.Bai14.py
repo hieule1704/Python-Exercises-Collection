@@ -9,4 +9,4 @@ while a < 100:
         b = b + 1
     print()
     a = a + 1
-print(flag)
+print(f"Có {flag} dấu * được in ra màng hình")
