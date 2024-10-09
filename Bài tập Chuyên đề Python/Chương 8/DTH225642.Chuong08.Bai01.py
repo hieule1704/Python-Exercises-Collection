@@ -23,7 +23,7 @@ stringHSA = StringVar()
 stringHSB = StringVar()
 stringKQ = StringVar()
 
-root.title("PTB1-facebook.com/duythanhcse")
+root.title("PTB1")
 root.minsize(height=130, width=250)
 root.resizable(height=True, width=True)
 
